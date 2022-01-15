@@ -1,0 +1,22 @@
+.result-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.result-list__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 100%;
+          flex: 1 0 100%;
+  margin-bottom: 10px;
+}
+
+.searching-link {
+  text-align: center;
+}
+.searching-link__item:hover {
+  color: red;
+}

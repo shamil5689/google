@@ -1,0 +1,32 @@
+.searching-results{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.result-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    &__item{
+        flex: 1 0 100%;
+        margin-bottom: 30px;
+    }
+    &__title{
+        display: block;
+        color:  rgb(211, 207, 201);
+        margin-bottom: 20px;
+    }
+    &__description{
+        color: rgb(181, 174, 164);
+    }
+    &__link{
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+.searching-link{
+    text-align: center;
+    &__item:hover {
+        color: red;
+    }
+}

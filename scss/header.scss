@@ -1,0 +1,11 @@
+.header{
+    padding-top: 100px;
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__logo{
+        margin-bottom: 20px;
+    }
+}
